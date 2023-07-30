@@ -34,7 +34,7 @@ router.post('/',upload.single('image'), (req, res, next) => {
             console.log(err);
         } else {
             console.log("Blog Created Successfully!");
-            res.redirect('http://127.0.0.1:5173/Create');
+            res.redirect('https://full-blog-website.vercel.app/Create');
         }
     });
 });
