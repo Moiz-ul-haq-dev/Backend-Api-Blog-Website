@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const multer = require('multer');
 
-const {connection} = require('../database/sql.js');
+const connection = require('../database/sql.js');
 
 var storage = multer.diskStorage(
     {
